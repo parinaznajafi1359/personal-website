@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-  <header>
+  <header class="header">
     <nav class="navbar">
       <div class="logo">MySite</div>
       <ul class="nav-links">
@@ -19,34 +21,51 @@
     </nav>
   </header>
 
-  <main>
-    <h2>My Home Town</h2>
+  <main class="container">
 
-<img src="images/tehran.jpg" alt="Tehran city with Milad Tower" class="city-image">
-
-<p>
-  This is my home town. Tehran is the capital city of Iran.
-</p>
-
-    <h1>About Me</h1>
-
-  <div class="about-grid">
-    <div>
-      <h2>Who I am</h2>
+    <section class="card">
+      <h2>About Me</h2>
       <p>
-        I am a student who is learning web development.
-        I enjoy working with computers and learning new technologies.
+        I am a motivated student learning web development.
+        I like working with computers, solving problems,
+        and continuously improving my technical skills.
       </p>
-    </div>
+    </section>
 
-    <div>
-      <h2>My Interests</h2>
+    <section class="grid">
+      <div class="card">
+        <h3>My Interests</h3>
+        <p>
+          I am interested in technology, design, and programming.
+          I enjoy learning new topics and working on personal projects.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>My Skills</h3>
+        <p>
+          HTML, CSS, basic JavaScript, teamwork, organization,
+          and creative thinking.
+        </p>
+      </div>
+    </section>
+
+    <section class="card piano">
+      <h2>Piano & Music</h2>
       <p>
-        I am interested in technology, design, and improving my skills.
-        In my free time, I like learning and exploring new topics.
+        Playing the piano is one of my favorite hobbies.
+        It helps me relax, focus, and express creativity.
+        Music also improves my concentration and discipline.
       </p>
-    </div>
-  </div>
+
+      <p><strong>Favorite piano piece:</strong> Ludovico Einaudi – Nuvole Bianche</p>
+
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/4VR-6AS0-l4" title="Piano Music" allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
   </main>
 
   <footer>
@@ -54,4 +73,5 @@
   </footer>
 
 </body>
+
 </html>
